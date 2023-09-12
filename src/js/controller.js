@@ -123,7 +123,6 @@ const controlAddRecipe = async function (newRecipe) {
     }, MODAL_CLOSE_SEC * 1000);
 
   } catch (error) {
-    console.log(`${error} 🍳`);
     addRecipeView.renderError(error.message);
   }
 
